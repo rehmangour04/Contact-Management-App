@@ -1,0 +1,49 @@
+/**
+ * App.css
+ *
+ * @format
+ */
+
+.App {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0; /* Set a light background color */
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear; /* Reduce animation duration */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear; /* Adjust animation duration */
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem; /* Increase font size for better readability */
+  color: white;
+  padding: 20px; /* Add some padding to the header */
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Remove underlines from links */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
